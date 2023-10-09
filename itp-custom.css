@@ -324,7 +324,7 @@ time {
 	box-sizing: content-box;
 	display: -webkit-box;
 	display: flex;
-	width: calc(100vw - 71px);
+	width: calc(100% - 71px);
 	margin: 0 0 5rem;
 	padding: 2rem 0;
 }
