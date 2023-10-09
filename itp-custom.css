@@ -288,7 +288,7 @@ time {
 	-webkit-box-direction: normal;
 	flex-direction: column;
 	-webkit-box-flex: 0;
-	flex: 0 0 320px;
+	flex: 0 0 280px;
 }
 
 .header-card p {
@@ -324,7 +324,7 @@ time {
 	box-sizing: content-box;
 	display: -webkit-box;
 	display: flex;
-	width: calc(100% - 71px);
+	width: 100%;
 	margin: 0 0 5rem;
 	padding: 2rem 0;
 }
@@ -421,7 +421,8 @@ time {
 }
 
 .mini-card {
-	min-width: 300px;
+	min-width: 250px;
+	max-width: 300px;
 	min-height: 350px;
 	padding: 1.5rem;
 	border-radius: 16px;
