@@ -196,6 +196,11 @@ img {
 	filter: grayscale(100%);
 }
 
+.author-avatar>#intel-logo img {
+	object-fit: contain;
+}
+
+
 .author-avatar .half-circle {
 	position: absolute;
 	bottom: 0;
@@ -380,13 +385,13 @@ time {
 }
 
 .mini-card-grid {
-	scrollbar-color: #201c29;
+	/* scrollbar-color: #201c29;
 	scrollbar-width: 10px;
-	scrollbar-gutter: always;
+	scrollbar-gutter: always; */
 	padding: 3rem;
 	display: -webkit-box;
 	display: flex;
-	overflow-x: scroll;
+	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
 }
 
